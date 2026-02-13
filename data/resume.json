@@ -1,0 +1,322 @@
+{
+  "basics": {
+    "name": "Samuel Oyegbemi",
+    "label": "Software Engineer",
+    "email": "samueloyegbemi@gmail.com",
+    "phone": "+234-810-237-7949",
+    "summary": "Passionate software engineer with over 8 years of technical experience in building quality and reliable software solutions. Have the privilege of leading a technical team, ensuring best practices and effective collaboration. Currently looking out for opportunities to employ my skills in crafting software to meet business needs.",
+    "location": {
+      "city": "Lagos State",
+      "countryCode": "NG",
+      "region": "Lagos"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "samuelOyegbemi",
+        "url": "https://github.com/samuelOyegbemi"
+      },
+      {
+        "network": "GitLab",
+        "username": "samueloyegbemi",
+        "url": "https://gitlab.com/samueloyegbemi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "samuel-oyegbemi",
+        "url": "https://www.linkedin.com/in/samuel-oyegbemi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "eBanqo Inc.",
+      "position": "Senior Software Engineer",
+      "url": "",
+      "startDate": "2024-10-01",
+      "endDate": "",
+      "summary": "Customer Engagement Platform",
+      "highlights": [
+        "Contribute to core backend services",
+        "Manage a team of two engineers",
+        "Review of pull requests raised by teammates",
+        "Create technical requirement documents and architectural designs for new features",
+        "Work with teammates to implement features"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "Munchmate",
+      "position": "Co-founder & Senior Software Engineer",
+      "url": "https://www.munchmateng.com",
+      "startDate": "2023-10-01",
+      "endDate": "2024-12-01",
+      "summary": "Food Delivery",
+      "highlights": [
+        "Designed the overall system architecture (Microservices)",
+        "Setup and maintain CI/CD pipeline using private GitHub runners, Terraform and AWS",
+        "Review of pull requests raised by teammates",
+        "Map out feature requests",
+        "Work with the Product manager to create and assign tasks",
+        "Work with teammates to implement features"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "NESTCOIN",
+      "position": "Senior Software Engineer",
+      "url": "",
+      "startDate": "2021-12-01",
+      "endDate": "2023-09-01",
+      "summary": "Fintech (Cryptocurrency)",
+      "highlights": [
+        "Actively involved in review of pull requests raised by teammates",
+        "Work with CTO to map out feature requests",
+        "Work with the Product manager to create and assign tasks",
+        "Work with teammates to implement features"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "WEBCOUPERS LLC",
+      "position": "Technical Lead",
+      "url": "",
+      "startDate": "2021-02-01",
+      "endDate": "2021-12-01",
+      "summary": "Digital agency",
+      "highlights": [
+        "Work with the Head of Engineering to achieve departmental goals",
+        "Design system architecture for client applications",
+        "Review pull request raised by teammates",
+        "Manage/maintain company repositories",
+        "Periodically conduct one-on-one meetings with developers",
+        "Create and maintain deployment pipelines for every company project"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "WEBCOUPERS LLC",
+      "position": "Senior Software Engineer / DevOps",
+      "url": "",
+      "startDate": "2020-01-01",
+      "endDate": "2021-01-01",
+      "summary": "Digital agency",
+      "highlights": [
+        "Work with teammates to implement software requests from clients",
+        "Manage/maintain company repositories",
+        "Actively involved in review of pull requests raised by teammates",
+        "Create and maintain deployment pipelines for company projects"
+      ],
+      "location": "Remote"
+    },
+    {
+      "name": "SUPERMARTNG EXPRESS LIMITED",
+      "position": "Software Engineer",
+      "url": "",
+      "startDate": "2018-08-01",
+      "endDate": "2020-01-01",
+      "summary": "Online grocery store",
+      "highlights": [
+        "Work with teammates to develop and maintain company web applications",
+        "Responsible for upgrading the company site to a progressive web application"
+      ],
+      "location": "Lagos, Nigeria"
+    },
+    {
+      "name": "Freelance Development and Internships",
+      "position": "Software Developer",
+      "url": "",
+      "startDate": "2015-06-01",
+      "endDate": "2018-08-01",
+      "summary": "Freelance Development",
+      "highlights": [
+        "Built several web-based applications for small to medium-scale businesses across different sectors"
+      ],
+      "location": "Nigeria"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Federal University of Technology Minna",
+      "url": "",
+      "area": "Computer Engineering",
+      "studyType": "BEng",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Expert",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Node.js",
+        "Express.js",
+        "Python3",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "Expert",
+      "keywords": [
+        "React.js",
+        "Redux",
+        "CSS",
+        "Progressive Web Application"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "Expert",
+      "keywords": [
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "level": "Expert",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "AWS",
+        "GCP",
+        "Terraform",
+        "Circle CI",
+        "Jenkins",
+        "GitLab CI"
+      ]
+    },
+    {
+      "name": "Tools & Others",
+      "level": "Expert",
+      "keywords": [
+        "Git",
+        "Bash",
+        "Linux"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Munchmate",
+      "description": "A food delivery app based in Nigeria",
+      "highlights": [
+        "The API is designed as microservices, developed using Node.js and MongoDB",
+        "The Mobile app is developed with Flutter"
+      ],
+      "keywords": [
+        "Node.js",
+        "MongoDB",
+        "Microservices",
+        "Flutter",
+        "AWS",
+        "Terraform"
+      ],
+      "url": "https://www.munchmateng.com",
+      "type": "application"
+    },
+    {
+      "name": "MVM Hyper",
+      "description": "A play to earn gaming platform where individuals can play practice games for fun or play p2p for reward",
+      "highlights": [
+        "The API is designed as microservices, developed using Node.js, MySQL and MongoDB",
+        "The Mobile app is developed with Flutter"
+      ],
+      "keywords": [
+        "Node.js",
+        "MySQL",
+        "MongoDB",
+        "Microservices",
+        "Flutter",
+        "Gaming"
+      ],
+      "url": "https://mvm.gg",
+      "type": "application"
+    },
+    {
+      "name": "SMEShop",
+      "description": "A learning management system and consultancy platform for Small and Medium scale Enterprise",
+      "highlights": [
+        "Platform is made up of four services, developed using Node.js, React.js, and PostgreSQL"
+      ],
+      "keywords": [
+        "Node.js",
+        "React.js",
+        "PostgreSQL",
+        "LMS"
+      ],
+      "url": "https://smeshop.ng",
+      "type": "website"
+    },
+    {
+      "name": "BSchoolAfrica",
+      "description": "Learning management system customized from SMEShop",
+      "highlights": [
+        "Customized platform for business education in Africa"
+      ],
+      "keywords": [
+        "Node.js",
+        "React.js",
+        "PostgreSQL",
+        "LMS"
+      ],
+      "url": "https://bschoolafrica.com",
+      "type": "website"
+    },
+    {
+      "name": "Letshego MFB",
+      "description": "Micro-website for Letshego Microfinance bank",
+      "highlights": [
+        "Corporate website for financial institution"
+      ],
+      "keywords": [
+        "React.js",
+        "Website"
+      ],
+      "url": "https://letshego.ng",
+      "type": "website"
+    },
+    {
+      "name": "NPM Library",
+      "description": "A library that implements common need in a typical Node.js project",
+      "highlights": [
+        "Open source NPM package for Node.js developers"
+      ],
+      "keywords": [
+        "Node.js",
+        "NPM",
+        "Library"
+      ],
+      "url": "https://github.com/samuelOyegbemi",
+      "type": "library"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Edustripe.com",
+      "position": "Developer",
+      "url": "",
+      "startDate": "2020-01-01",
+      "endDate": "2020-12-01",
+      "summary": "Educational platform",
+      "highlights": [
+        "Assist in managing the project and developers involved",
+        "Work with other developers on the API for the website"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native/Bilingual"
+    }
+  ]
+}
