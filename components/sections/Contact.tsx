@@ -35,8 +35,7 @@ export function Contact() {
     setSubmitStatus(null);
 
     try {
-      // Using Formspree - replace YOUR_FORM_ID with actual Formspree form ID
-      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+      const response = await fetch('/api/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -44,13 +43,22 @@ export function Contact() {
         body: JSON.stringify(data),
       });
 
+      const result = await response.json();
+
       if (response.ok) {
         setSubmitStatus('success');
         reset();
+
+        // Auto-clear success message after 5 seconds
+        setTimeout(() => {
+          setSubmitStatus(null);
+        }, 5000);
       } else {
         setSubmitStatus('error');
+        console.error('Form submission error:', result.error);
       }
     } catch (error) {
+      console.error('Network error:', error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
@@ -137,10 +145,24 @@ export function Contact() {
             </button>
 
             {submitStatus === 'success' && (
-              <p className="text-center text-green-600">Message sent successfully!</p>
+              <div className="rounded-lg bg-green-50 border border-green-200 p-4 text-center dark:bg-green-900/20 dark:border-green-900">
+                <p className="text-green-600 dark:text-green-400 font-medium">
+                  Message sent successfully! I'll get back to you soon.
+                </p>
+              </div>
             )}
             {submitStatus === 'error' && (
-              <p className="text-center text-red-600">Failed to send message. Please try again or email directly.</p>
+              <div className="rounded-lg bg-red-50 border border-red-200 p-4 text-center dark:bg-red-900/20 dark:border-red-900">
+                <p className="text-red-600 dark:text-red-400 font-medium">
+                  Failed to send message. Please try again or email me directly at{' '}
+                  <a
+                    href="mailto:samueloyegbemi@gmail.com"
+                    className="underline hover:text-red-700 dark:hover:text-red-300"
+                  >
+                    samueloyegbemi@gmail.com
+                  </a>
+                </p>
+              </div>
             )}
           </form>
         </div>

@@ -6,6 +6,7 @@ import { Skills } from '@/components/sections/Skills';
 import { Projects } from '@/components/sections/Projects';
 import { Education } from '@/components/sections/Education';
 import { Contact } from '@/components/sections/Contact';
+import { Calendar } from '@/components/sections/Calendar';
 import { getResumeData } from '@/lib/resume-data';
 
 export default function HomePage() {
@@ -21,6 +22,7 @@ export default function HomePage() {
         <Projects projects={resume.projects} />
         <Education education={resume.education} />
         <Contact />
+        <Calendar />
       </main>
       <Footer basics={resume.basics} />
     </>
