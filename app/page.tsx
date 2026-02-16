@@ -4,6 +4,8 @@ import { Hero } from '@/components/sections/Hero';
 import { Experience } from '@/components/sections/Experience';
 import { Skills } from '@/components/sections/Skills';
 import { Projects } from '@/components/sections/Projects';
+import { GitHubStats } from '@/components/sections/GitHubStats';
+import { Achievements } from '@/components/sections/Achievements';
 import { Education } from '@/components/sections/Education';
 import { Contact } from '@/components/sections/Contact';
 import { Calendar } from '@/components/sections/Calendar';
@@ -20,6 +22,8 @@ export default function HomePage() {
         <Experience work={resume.work} />
         <Skills skills={resume.skills} />
         <Projects projects={resume.projects} />
+        <GitHubStats githubStats={resume.basics.githubStats} />
+        <Achievements achievements={resume.achievements} />
         <Education education={resume.education} />
         <Contact />
         <Calendar />

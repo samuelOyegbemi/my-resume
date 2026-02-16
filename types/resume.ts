@@ -1,25 +1,4 @@
 // Based on JSON Resume Schema (jsonresume.org)
-export interface Resume {
-  basics: Basics;
-  work: Work[];
-  education: Education[];
-  skills: Skill[];
-  projects: Project[];
-  volunteer?: Volunteer[];
-  languages?: Language[];
-}
-
-export interface Basics {
-  name: string;
-  label: string; // e.g., "Software Engineer"
-  image?: string; // Profile photo URL
-  email: string;
-  phone?: string;
-  url?: string; // Personal website
-  summary: string;
-  location: Location;
-  profiles: Profile[];
-}
 
 export interface Location {
   address?: string;
@@ -33,6 +12,29 @@ export interface Profile {
   network: string; // e.g., "LinkedIn", "GitHub"
   username: string;
   url: string;
+}
+
+export interface Basics {
+  name: string;
+  label: string; // e.g., "Software Engineer"
+  image?: string; // Profile photo URL
+  email: string;
+  phone?: string;
+  url?: string; // Personal website
+  summary: string;
+  location: Location;
+  profiles: Profile[];
+  githubStats?: {
+    totalStars: number;
+    totalRepos: number;
+    totalContributions: number;
+    languages: { name: string; percentage: number }[];
+  };
+  metrics?: {
+    yearsOfExperience: number;
+    projectsCompleted: number;
+    technologiesUsed: number;
+  };
 }
 
 export interface Work {
@@ -66,6 +68,7 @@ export interface Skill {
 export interface Project {
   name: string;
   description: string;
+  longDescription?: string; // Detailed 2-3 paragraph description
   highlights: string[];
   keywords: string[]; // Technologies used
   startDate?: string;
@@ -74,6 +77,28 @@ export interface Project {
   roles?: string[];
   entity?: string; // Organization
   type?: string; // e.g., "application", "website"
+  github?: {
+    url: string;
+    stars?: number;
+    forks?: number;
+    language?: string;
+    topics?: string[];
+  };
+  demo?: {
+    url: string;
+    screenshots?: string[];
+  };
+  metrics?: {
+    users?: string;
+    performance?: string;
+    impact?: string;
+  };
+  technologies?: {
+    category: string; // "Frontend", "Backend", "DevOps"
+    items: string[];
+  }[];
+  featured?: boolean; // Mark top 3-4 projects
+  image?: string; // Hero image path
 }
 
 export interface Volunteer {
@@ -89,4 +114,31 @@ export interface Volunteer {
 export interface Language {
   language: string;
   fluency: string; // e.g., "Native", "Fluent", "Professional"
+}
+
+export interface Certification {
+  name: string;
+  issuer: string;
+  date: string;
+  url?: string;
+  image?: string; // Badge image path
+}
+
+export interface Achievement {
+  title: string;
+  description: string;
+  date?: string;
+  icon?: string; // Icon identifier (trophy, github, dollar-sign, award)
+}
+
+export interface Resume {
+  basics: Basics;
+  work: Work[];
+  education: Education[];
+  skills: Skill[];
+  projects: Project[];
+  volunteer?: Volunteer[];
+  languages?: Language[];
+  certifications?: Certification[];
+  achievements?: Achievement[];
 }
