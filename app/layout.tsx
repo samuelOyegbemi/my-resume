@@ -8,7 +8,7 @@ import { getResumeData } from '@/lib/resume-data';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://my-resume-aqpigdhel-samuel-oyegbemis-projects.vercel.app'),
+  metadataBase: new URL('https://samueloyegbemi.vercel.app'),
   title: {
     default: 'Samuel Oyegbemi - Senior Software Engineer | Node.js, AWS, DevOps',
     template: '%s | Samuel Oyegbemi',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://my-resume-aqpigdhel-samuel-oyegbemis-projects.vercel.app',
+    url: 'https://samueloyegbemi.vercel.app',
     title: 'Samuel Oyegbemi - Senior Software Engineer',
     description: 'Senior Software Engineer specializing in Node.js, microservices, AWS cloud infrastructure, and DevOps practices.',
     siteName: 'Samuel Oyegbemi Portfolio',

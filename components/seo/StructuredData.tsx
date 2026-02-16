@@ -13,7 +13,7 @@ export function StructuredData({ basics, work }: StructuredDataProps) {
     jobTitle: basics.label,
     email: basics.email,
     telephone: basics.phone,
-    url: 'https://my-resume-aqpigdhel-samuel-oyegbemis-projects.vercel.app',
+    url: 'https://samueloyegbemi.vercel.app',
     image: basics.image,
     address: {
       '@type': 'PostalAddress',
