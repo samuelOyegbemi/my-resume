@@ -5,7 +5,7 @@
     "image": "/images/profile/samuel-oyegbemi.jpg",
     "email": "samueloyegbemi@gmail.com",
     "phone": "+234-810-237-7949",
-    "summary": "Passionate software engineer with over 8 years of technical experience in building quality and reliable software solutions. Specialized in microservices architecture, cloud infrastructure (AWS), and DevOps practices. Have the privilege of leading technical teams, ensuring best practices and effective collaboration. Currently looking out for opportunities to employ my skills in crafting software to meet business needs.",
+    "summary": "Senior Software Engineer with 8+ years of expertise in full-stack development, AI/ML integration, and cloud infrastructure. Specialized in building scalable microservices with Node.js and TypeScript, architecting AWS cloud solutions, and implementing DevOps automation. Proven track record leading technical teams to deliver high-performance applications with 99.9% uptime. Experienced in integrating LLMs and AI capabilities into production systems, leveraging modern AI tools to enhance developer productivity and software quality.",
     "location": {
       "city": "Lagos State",
       "countryCode": "NG",
@@ -220,6 +220,18 @@
         "Git",
         "Bash",
         "Linux"
+      ]
+    },
+    {
+      "name": "AI & Emerging Technologies",
+      "level": "Proficient",
+      "keywords": [
+        "LLMs (GPT-4, Claude)",
+        "AI Integration",
+        "Prompt Engineering",
+        "Machine Learning",
+        "OpenAI API",
+        "Anthropic API"
       ]
     }
   ],
@@ -472,20 +484,7 @@
       "type": "website"
     }
   ],
-  "volunteer": [
-    {
-      "organization": "Edustripe.com",
-      "position": "Developer",
-      "url": "",
-      "startDate": "2020-01-01",
-      "endDate": "2020-12-01",
-      "summary": "Educational platform",
-      "highlights": [
-        "Assist in managing the project and developers involved",
-        "Work with other developers on the API for the website"
-      ]
-    }
-  ],
+  "volunteer": [],
   "languages": [
     {
       "language": "English",
